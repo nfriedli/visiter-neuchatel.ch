@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ .Title }}{{ range .Ancestors }} - {{ .Title }}{{ end }}</title>
+
+    {{ with .Params.description }}
+    <meta name="description" content="{{ . }}">
+    {{ else }}
+    <meta name="description" content="{{ .Summary }}">
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    {{ hugo.Generator }}
+
+    {{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body>
+
+    {{ if .Ancestors }}
+    <nav aria-label="breadcrumb">
+        {{ range .Ancestors.Reverse }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a> >
+        {{ end }}
+    </nav>
+    {{ end }}
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+
+</html>

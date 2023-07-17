@@ -1,0 +1,14 @@
+/css/*
+    Cache-Control: max-age=63072000,immutable
+
+/fonts/*
+    Cache-Control: max-age=63072000,immutable
+
+/favicon.ico
+    Cache-Control: max-age=63072000,immutable
+
+/favicon.svg
+    Cache-Control: max-age=63072000,immutable
+
+/apple-touch-icon.png
+    Cache-Control: max-age=63072000,immutable

@@ -1,0 +1,10 @@
+baseURL = "https://visiter-neuchatel.ch/"
+languageCode = "fr"
+title = "Visiter Neuchâtel"
+
+disableKinds = ["taxonomy", "term", "robotsTXT", "RSS", "404"]
+
+cleanDestinationDir = true
+
+[minify]
+minifyOutput = true
