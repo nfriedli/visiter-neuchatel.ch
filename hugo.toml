@@ -1,13 +1,36 @@
 baseURL = "https://visiter-neuchatel.ch/"
-languageCode = "fr"
 title = "Visiter Neuchâtel"
 
-disableKinds = ["taxonomy", "term", "robotsTXT", "RSS", "404"]
+languageCode = "fr"
+defaultContentLanguage = "fr"
+
+disableKinds = ["taxonomy", "term", "robotsTXT", "404"]
 
 cleanDestinationDir = true
+disableFastRender = true
+enableGitInfo = true
+
+copyright = "Creative Commons BY-SA"
+
+removePathAccents = true
+
+[author]
+name = "Nicolas Friedli"
+email = "hello+visiterneuchatel@nicolasfriedli.ch"
+
+[build]
+writeStats = false
+
+[markup.goldmark.parser]
+autoHeadingIDType = "github-ascii"
 
 [minify]
 minifyOutput = true
 
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+
 [params]
+footer = "[Nicolas Friedli](https://nicolasfriedli.ch/contact/) / Creative Commons BY-SA / [RSS](/index.xml)"
 images = ["/images/neuchatel-place-des-halles.jpg"]

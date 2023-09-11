@@ -14,6 +14,7 @@
     {{ end }}
 
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="/index.xml">
 
     {{ partialCached "css-favicon" . }}
 
@@ -39,6 +40,7 @@
         {{ block "main" . }}{{ end }}
     </main>
 
+    {{/*
     {{ $current := . }}
     {{ with .Parent }}
     <aside>
@@ -55,7 +57,11 @@
         </ul>
     </aside>
     {{ end }}
+    */}}
 
+    <footer>
+        {{ site.Params.footer | .RenderString }}
+    </footer>
 </body>
 
 </html>
