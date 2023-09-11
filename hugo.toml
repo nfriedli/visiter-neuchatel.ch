@@ -8,3 +8,6 @@ cleanDestinationDir = true
 
 [minify]
 minifyOutput = true
+
+[params]
+images = ["/images/neuchatel-place-des-halles.jpg"]

@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540"><path fill="#e8423f" d="M0 0h540v540H0z"/><path fill="#fff" d="M0 0h360v540H0z"/><path fill="#16a74e" d="M0 0h180v540H0z"/><path stroke="#fff" stroke-width="20" d="M450 20v140m-70-70h140"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="29.499699mm" height="29.499699mm"><svg width="29.499699mm" height="29.499699mm" viewBox="0 0 29.499699 29.499699" version="1.1" id="SvgjsSvg1011" inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="visiter-neuchatel.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="SvgjsSodipodi:namedview1010" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:zoom="2.9041807" inkscape:cx="64.045602" inkscape:cy="66.111589" inkscape:window-width="1920" inkscape:window-height="999" inkscape:window-x="0" inkscape:window-y="28" inkscape:window-maximized="1" inkscape:current-layer="layer1"></sodipodi:namedview>
+  <defs id="SvgjsDefs1009">
+    <rect x="-98.397827" y="416.16953" width="137.2197" height="116.95941" id="SvgjsRect1008"></rect>
+  </defs>
+  <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="SvgjsG1007" transform="translate(-15.046774,-81.717422)">
+    <g id="SvgjsG1006" transform="translate(-0.09764841,-0.1505687)">
+      <g aria-label="N" id="SvgjsG1005" style="font-size:34.7896px;line-height:100%;font-family:'IntelOne Mono';-inkscape-font-specification:'IntelOne Mono';letter-spacing:-4.72755px;word-spacing:0px;fill:#008000;stroke-width:0.86974">
+        <path d="M 37.795395,85.132501 H 34.01499 V 103.71331 H 33.78026 L 20.907119,85.132501 H 17.3738 v 25.301529 h 3.817467 V 91.877928 h 0.234731 l 12.860786,18.556102 h 3.508611 z" style="font-weight:500;font-family:Inter;-inkscape-font-specification:'Inter Medium'" id="SvgjsPath1004"></path>
+      </g>
+      <g aria-label="N" id="SvgjsG1003" style="font-size:34.7896px;line-height:100%;font-family:'IntelOne Mono';-inkscape-font-specification:'IntelOne Mono';letter-spacing:-4.72755px;word-spacing:0px;fill:#800000;stroke-width:0.86974">
+        <path d="M 42.414743,82.801652 H 38.634339 V 101.38246 H 38.399608 L 25.526468,82.801652 h -3.533319 v 25.301528 h 3.817467 V 89.547079 h 0.234731 l 12.860786,18.556101 h 3.50861 z" style="font-weight:500;font-family:Inter;-inkscape-font-specification:'Inter Medium'" id="SvgjsPath1002"></path>
+      </g>
+      <g aria-label="N" id="SvgjsG1001" style="font-size:34.7896px;line-height:100%;font-family:'IntelOne Mono';-inkscape-font-specification:'IntelOne Mono';letter-spacing:-4.72755px;word-spacing:0px;fill:#ffffff;stroke-width:0.86974">
+        <path d="M 40.105068,83.967081 H 36.324664 V 102.54789 H 36.089933 L 23.216792,83.967081 H 19.683474 V 109.26861 H 23.50094 V 90.712507 h 0.234731 l 12.860787,18.556103 h 3.50861 z" style="font-weight:500;font-family:Inter;-inkscape-font-specification:'Inter Medium'" id="SvgjsPath1000"></path>
+      </g>
+    </g>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>

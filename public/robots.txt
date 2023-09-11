@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://visiter-neuchatel.ch/sitemap.xml
