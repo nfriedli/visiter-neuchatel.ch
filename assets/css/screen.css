@@ -6,8 +6,6 @@
 }
 
 html {
-    background: var(--background);
-    color: var(--text);
     font-family: var(--fonts-default);
     font-size: clamp(1.00rem, calc(0.91rem + 0.23vw), 1.19rem);
     line-height: 1.5;
