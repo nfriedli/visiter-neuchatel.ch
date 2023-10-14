@@ -1,9 +1,14 @@
 :root {
     color-scheme: light dark;
+
+    --fonts-default: Inter, Roboto, system-ui, sans-serif;
+    --fonts-headings: Poppins, Montserrat, var(--fonts-default);
 }
 
 html {
-    font-family: Inter, Roboto, system-ui, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--fonts-default);
     font-size: clamp(1.00rem, calc(0.91rem + 0.23vw), 1.19rem);
     line-height: 1.5;
     padding: 1rem;
@@ -21,6 +26,11 @@ body > * + * {
 
 main {
     min-height: 50vh;
+}
+
+h1,h2,h3,h4 {
+    font-family: var(--fonts-headings);
+    line-height: 1.2;
 }
 
 li {
