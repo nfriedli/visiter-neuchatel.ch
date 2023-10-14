@@ -6,11 +6,11 @@ RewriteEngine On
 # Renvoi vers la version https
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www. [NC]
-RewriteRule (.*) https://visiter-neuchatel/$1 [R=301,L]
+RewriteRule (.*) https://visiter-neuchatel.ch/$1 [R=301,L]
 
 # Suppression du www. s’il existe
-RewriteCond %{HTTP_HOST} ^www.visiter-neuchatel$ [NC]
-RewriteRule ^(.*)$ https://visiter-neuchatel/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.visiter-neuchatel.ch$ [NC]
+RewriteRule ^(.*)$ https://visiter-neuchatel.ch/$1 [R=301,L]
 
 # https://securityheaders.com/
 
@@ -22,7 +22,7 @@ Header always set Referrer-Policy "same-origin"
 Header always set X-Permitted-Cross-Domain-Policies "none"
 
 # Gestion 404 (pas très propre)
-ErrorDocument 404 https://visiter-neuchatel/
+ErrorDocument 404 https://visiter-neuchatel.ch/
 
 # Cache général
 <filesMatch ".(css|js|jpg|jpeg|png|gif|ico|svg)$">
